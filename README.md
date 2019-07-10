@@ -41,7 +41,7 @@ All responses will have the form
 `POST /devices`
 
 **Arguments**
-— `"identifier":string a globally unique identifier for this device`
-— `"name":string a friendly name for this device`
-— `"device_type":string the type of the device as understood by the client`
-— `"controller_gateway":string the IP address of the device's controller`
+- `"identifier":string a globally unique identifier for this device`
+- `"name":string a friendly name for this device`
+- `"device_type":string the type of the device as understood by the client`
+- `"controller_gateway":string the IP address of the device's controller`
