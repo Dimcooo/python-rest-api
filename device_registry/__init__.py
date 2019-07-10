@@ -49,7 +49,7 @@ class DeviceList(Resource):
 
 class Device(Resource):
     def get(self, identifier):
-        shelf = get_db
+        shelf = get_db()
 
         if not (identifier in shelf):
             return {'message': 'Device not found', 'data': {}}, 404
