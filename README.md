@@ -7,6 +7,7 @@ All responses will have the form
     "data": "Content for response",
     "message": "Description"
 }
+```
 
 ### List all Devices
 
@@ -31,6 +32,7 @@ All responses will have the form
     "controller_gateway": "192.168.0.2"
   }
 ]
+```
 
 ### Registering a new device
 
